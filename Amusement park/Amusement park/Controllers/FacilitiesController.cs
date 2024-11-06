@@ -25,7 +25,7 @@ namespace Amusement_park.Controllers
             Facilitie f =facilitiesService.GetById(id);
             if (f == null)
                 return NotFound();
-            return f;
+            return Ok(f);
         }
 
         // POST api/<FacilitiesController>

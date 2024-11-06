@@ -25,7 +25,7 @@ namespace Amusement_park.Controllers
             Order o = orderService.GetById(id);
             if (o == null)
                 return NotFound();
-            return o;
+            return Ok(o);
         }
 
         // POST api/<OrderController>

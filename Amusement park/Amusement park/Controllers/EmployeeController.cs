@@ -25,7 +25,7 @@ namespace Amusement_park.Controllers
             Employee e = employeeService.GetById(id);
             if (e == null)
                 return NotFound();
-            return e;
+            return Ok(e);
         }
 
         // POST api/<EmployeeController>

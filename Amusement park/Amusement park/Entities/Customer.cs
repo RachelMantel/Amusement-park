@@ -51,6 +51,20 @@
             Points = c.Points;
             CustomerType = c.CustomerType;
         }
+
+        public Customer(string tz, string name, string email, string phone, string password, DateTime dateRegistration, int points, string customerType)
+        {
+            Id = id;
+            id++;  
+            Tz = tz;
+            Name = name;
+            Email = email;
+            Phone = phone;
+            Password = password;
+            DateRegistration = dateRegistration;
+            Points = points;
+            CustomerType = customerType;
+        }
     }
 }
 

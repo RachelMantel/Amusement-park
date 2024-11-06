@@ -46,5 +46,17 @@
             Status = f.Status;
             RoundDuration = f.RoundDuration;
         }
+        public Facilitie(string name, string description, int numVisitorsForDay, int minimalAge, int numofWorkers, bool status, int roundDuration)
+        {
+            Id = id;
+            id++;  
+            Name = name;
+            Description = description;
+            NumVisitorsForDay = numVisitorsForDay;
+            MinimalAge = minimalAge;
+            NumofWorkers = numofWorkers;
+            Status = status;
+            RoundDuration = roundDuration;
+        }
     }
 }

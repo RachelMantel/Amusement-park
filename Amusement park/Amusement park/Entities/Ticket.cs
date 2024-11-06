@@ -33,5 +33,15 @@
             Price = t.Price;
             Validity = t.Validity;
         }
+
+        public Ticket(DateTime dateOfPurchase, string sort, int price, DateTime validity)
+        {
+            Id = id;
+            id++; 
+            DateOfPurchase = dateOfPurchase;
+            Sort = sort;
+            Price = price;
+            Validity = validity;
+        }
     }
 }

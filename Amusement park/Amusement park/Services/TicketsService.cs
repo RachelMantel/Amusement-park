@@ -14,8 +14,6 @@ namespace Amusement_park.Services
         {
             return DataManager.dataContext.dataTickets.FirstOrDefault(x => x.Id == id);
         }
-
-
         public ActionResult<bool> Add(Ticket ticket)
         {
             DataManager.dataContext.dataTickets.Add(new Ticket(ticket));

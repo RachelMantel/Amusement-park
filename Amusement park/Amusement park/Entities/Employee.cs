@@ -56,6 +56,19 @@
         {
             
         }
-
+        public Employee(string tz, string name, string email, string phone, string role, int seniority, double salary, int workingHours, bool status)
+        {
+            Id = id;
+            id++; 
+            Tz = tz;
+            Name = name;
+            Email = email;
+            Phone = phone;
+            Role = role;
+            Seniority = seniority;
+            Salary = salary;
+            WorkingHours = workingHours;
+            Status = status;
+        }
     }
 }

@@ -9,7 +9,7 @@ namespace Amusement_park
 
         public int TicketId { get; set; }
 
-        public string CustomerId { get; set; }
+        public int CustomerId { get; set; }
 
         public DateTime OrderDate { get; set; }
 
@@ -44,6 +44,17 @@ namespace Amusement_park
             FinallPrice = o.FinallPrice;
             PaymentMethod = o.PaymentMethod;
             Quantity = o.Quantity;
+        }
+        public Order(int ticketId, int customerId, DateTime orderDate, int finallPrice, string paymentMethod, int quantity)
+        {
+            Id = id;
+            id++;  
+            TicketId = ticketId;
+            CustomerId = customerId;
+            OrderDate = orderDate;
+            FinallPrice = finallPrice;
+            PaymentMethod = paymentMethod;
+            Quantity = quantity;
         }
     }
 }

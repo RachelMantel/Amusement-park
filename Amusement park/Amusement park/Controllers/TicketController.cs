@@ -25,7 +25,7 @@ namespace Amusement_park.Controllers
             Ticket t = ticketsService.GetById(id);
             if (t == null)
                 return NotFound();
-            return t;
+            return Ok(t);
         }
         // POST api/<TicketController>
         [HttpPost]
