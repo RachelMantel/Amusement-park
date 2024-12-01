@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i4A0i/TZz3Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Data\\AmusementPark.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user1\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

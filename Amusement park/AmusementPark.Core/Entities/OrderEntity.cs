@@ -1,0 +1,47 @@
+﻿using System.Collections.Generic;
+
+namespace AmusementPark.Core.Entities
+{
+    public class OrderEntity
+    {
+        public int Id { get; set; }
+
+        public int TicketId { get; set; }
+
+        public int CustomerId { get; set; }
+
+        public DateTime OrderDate { get; set; }
+
+        public int FinallPrice { get; set; }
+
+        public string PaymentMethod { get; set; }
+
+        public int Quantity { get; set; }
+
+        public OrderEntity()
+        {
+            
+        }
+        public void Copy(OrderEntity o)
+        {
+            Id = o.Id;
+            TicketId = o.TicketId;
+            CustomerId = o.CustomerId;
+            OrderDate = o.OrderDate;
+            FinallPrice = o.FinallPrice;
+            PaymentMethod = o.PaymentMethod;
+            Quantity = o.Quantity;
+        }
+
+        //public OrderEntity(int id,int ticketId, int customerId, DateTime orderDate, int finallPrice, string paymentMethod, int quantity)
+        //{
+        //    Id = id;
+        //    TicketId = ticketId;
+        //    CustomerId = customerId;
+        //    OrderDate = orderDate;
+        //    FinallPrice = finallPrice;
+        //    PaymentMethod = paymentMethod;
+        //    Quantity = quantity;
+        //}
+    }
+}

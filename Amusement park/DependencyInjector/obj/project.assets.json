@@ -1,0 +1,236 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CsvHelper/33.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets": {}
+        }
+      },
+      "AmusementPark.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AmusementPark.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AmusementPark.Core.dll": {}
+        }
+      },
+      "AmusementPark.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AmusementPark.Core": "1.0.0",
+          "CsvHelper": "33.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AmusementPark.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AmusementPark.Data.dll": {}
+        }
+      },
+      "AmusementPark.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AmusementPark.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AmusementPark.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AmusementPark.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CsvHelper/33.0.1": {
+      "sha512": "fev4lynklAU2A9GVMLtwarkwaanjSYB4wUqO2nOJX5hnzObORzUqVLe+bDYCUyIIRQM4o5Bsq3CcyJR89iMmEQ==",
+      "type": "package",
+      "path": "csvhelper/33.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.33.0.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net462/CsvHelper.dll",
+        "lib/net462/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net48/CsvHelper.dll",
+        "lib/net48/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/net7.0/CsvHelper.dll",
+        "lib/net7.0/CsvHelper.xml",
+        "lib/net8.0/CsvHelper.dll",
+        "lib/net8.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+      "sha512": "+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "AmusementPark.Core/1.0.0": {
+      "type": "project",
+      "path": "../AmusementPark.Core/AmusementPark.Core.csproj",
+      "msbuildProject": "../AmusementPark.Core/AmusementPark.Core.csproj"
+    },
+    "AmusementPark.Data/1.0.0": {
+      "type": "project",
+      "path": "../AmusementPark.Data/AmusementPark.Data.csproj",
+      "msbuildProject": "../AmusementPark.Data/AmusementPark.Data.csproj"
+    },
+    "AmusementPark.Service/1.0.0": {
+      "type": "project",
+      "path": "../AmusementPark.Service/AmusementPark.Service.csproj",
+      "msbuildProject": "../AmusementPark.Service/AmusementPark.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AmusementPark.Core >= 1.0.0",
+      "AmusementPark.Data >= 1.0.0",
+      "AmusementPark.Service >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user1\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user1\\Desktop\\Amusement park\\DependencyInjector\\AmusementPark.extesion.csproj",
+      "projectName": "AmusementPark.extesion",
+      "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\DependencyInjector\\AmusementPark.extesion.csproj",
+      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user1\\Desktop\\Amusement park\\DependencyInjector\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj": {
+              "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj"
+            },
+            "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Data\\AmusementPark.Data.csproj": {
+              "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Data\\AmusementPark.Data.csproj"
+            },
+            "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj": {
+              "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

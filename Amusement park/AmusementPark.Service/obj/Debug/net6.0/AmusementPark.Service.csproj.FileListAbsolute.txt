@@ -1,0 +1,15 @@
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\bin\Debug\net6.0\AmusementPark.Service.deps.json
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\bin\Debug\net6.0\AmusementPark.Service.dll
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\bin\Debug\net6.0\AmusementPark.Service.pdb
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\bin\Debug\net6.0\AmusementPark.Core.dll
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\bin\Debug\net6.0\AmusementPark.Core.pdb
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\AmusementPark.Service.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\AmusementPark.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\AmusementPark.Service.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\AmusementPark.Service.AssemblyInfo.cs
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\AmusementPark.Service.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\Amusemen.009B1D70.Up2Date
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\AmusementPark.Service.dll
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\refint\AmusementPark.Service.dll
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\AmusementPark.Service.pdb
+C:\Users\user1\Desktop\Amusement park\AmusementPark.Service\obj\Debug\net6.0\ref\AmusementPark.Service.dll

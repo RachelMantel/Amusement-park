@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AmusementPark.Service/1.0.0": {
+        "dependencies": {
+          "AmusementPark.Core": "1.0.0"
+        },
+        "runtime": {
+          "AmusementPark.Service.dll": {}
+        }
+      },
+      "AmusementPark.Core/1.0.0": {
+        "runtime": {
+          "AmusementPark.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AmusementPark.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AmusementPark.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
