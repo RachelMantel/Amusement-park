@@ -22,7 +22,7 @@ namespace AmusementPark.Api.Controllers
         [HttpGet]
         public ActionResult<List<EmployeeEntity>> Get()
         {
-            return _employeeService.getall();
+            return _employeeService.getall().ToList();
         }
         // GET api/<EmployeeController>/5
         [HttpGet("{id}")]
@@ -38,7 +38,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPost]
         public ActionResult<bool> Post([FromBody] EmployeeEntity employee)
         {
-            if (_employeeService.add(employee))
+            if (_employeeService.add(employee) != null)
                 return Ok();
             return BadRequest();
         }
@@ -47,7 +47,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] EmployeeEntity employee)
         {
-            if (!_employeeService.update(id, employee))
+            if (_employeeService.update(id, employee) == null)
                 return NotFound();
             return Ok();
         }

@@ -21,7 +21,7 @@ namespace AmusementPark.Api.Controllers
         [HttpGet]
         public ActionResult<List<OrderEntity>> Get()
         {
-            return _orderService.getall();
+            return _orderService.getall().ToList();
         }
 
         // GET api/<OrderController>/5
@@ -37,7 +37,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPost]
         public ActionResult<bool> Post([FromBody] OrderEntity order)
         {
-            if (_orderService.add(order))
+            if (_orderService.add(order) != null)
                 return Ok();
             return BadRequest();
         }
@@ -46,7 +46,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] OrderEntity order)
         {
-            if (!_orderService.update(id, order))
+            if (_orderService.update(id, order) == null)
                 return NotFound();
             return Ok();
         }

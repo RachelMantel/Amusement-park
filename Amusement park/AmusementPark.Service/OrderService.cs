@@ -17,7 +17,7 @@ namespace AmusementPark.Service
         {
             _orderRepository = orderRepository;
         }
-        public List<OrderEntity> getall()
+        public IEnumerable<OrderEntity> getall()
         {
             return _orderRepository.GetList();
         }
@@ -28,15 +28,15 @@ namespace AmusementPark.Service
             return _orderRepository.GetById(id);
         }
 
-        public bool add(OrderEntity order)
+        public OrderEntity add(OrderEntity order)
         {
             if (order == null)
-                return false;
+                return null;
 
             return _orderRepository.Add(order);
         }
 
-        public bool update(int id, OrderEntity order)
+        public OrderEntity update(int id,OrderEntity order)
         {
             return _orderRepository.Update(id, order);
         }
@@ -44,7 +44,7 @@ namespace AmusementPark.Service
         public bool delete(int id)
         {
 
-            return _orderRepository.Delete(id);
+          return _orderRepository.Delete(id);
         }
     }
 }

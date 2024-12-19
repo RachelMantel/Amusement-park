@@ -17,7 +17,7 @@ namespace AmusementPark.Service
         {
             _employeeRepository = employeeRepository;
         }
-        public List<EmployeeEntity> getall()
+        public IEnumerable<EmployeeEntity> getall()
         {
             return _employeeRepository.GetList();
         }
@@ -28,23 +28,23 @@ namespace AmusementPark.Service
             return _employeeRepository.GetById(id);
         }
 
-        public bool add(EmployeeEntity employee )
+        public EmployeeEntity add(EmployeeEntity employee )
         {
             if (employee == null)
-                return false;
+                return null;
 
             return _employeeRepository.Add(employee);
         }
 
-        public bool update(int id, EmployeeEntity employee)
+        public EmployeeEntity update(int id,EmployeeEntity employee)
         {
-            return _employeeRepository.Update(id, employee);
+            return _employeeRepository.Update(id,employee);
         }
 
         public bool delete(int id)
         {
 
-            return _employeeRepository.Delete(id);
+          return _employeeRepository.Delete(id);
         }
     }
 }

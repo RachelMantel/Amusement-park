@@ -13,3 +13,21 @@ C:\Users\user1\Desktop\Amusement park\AmusementPark.Data\obj\Debug\net6.0\Amusem
 C:\Users\user1\Desktop\Amusement park\AmusementPark.Data\obj\Debug\net6.0\refint\AmusementPark.Data.dll
 C:\Users\user1\Desktop\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.pdb
 C:\Users\user1\Desktop\Amusement park\AmusementPark.Data\obj\Debug\net6.0\ref\AmusementPark.Data.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\bin\Debug\net6.0\AmusementPark.Data.deps.json
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\bin\Debug\net6.0\AmusementPark.Data.runtimeconfig.json
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\bin\Debug\net6.0\AmusementPark.Data.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\bin\Debug\net6.0\AmusementPark.Data.pdb
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\bin\Debug\net6.0\AmusementPark.Core.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\bin\Debug\net6.0\AmusementPark.Core.pdb
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.AssemblyInfo.cs
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.sourcelink.json
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\Amusemen.E13CEBB7.Up2Date
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\refint\AmusementPark.Data.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.pdb
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\AmusementPark.Data.genruntimeconfig.cache
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Data\obj\Debug\net6.0\ref\AmusementPark.Data.dll

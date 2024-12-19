@@ -17,7 +17,7 @@ namespace AmusementPark.Service
         {
             _facilityRepository = facilityRepository;
         }
-        public List<FacilitieEntity> getall()
+        public IEnumerable<FacilitieEntity> getall()
         {
             return _facilityRepository.GetList();
         }
@@ -28,23 +28,23 @@ namespace AmusementPark.Service
             return _facilityRepository.GetById(id);
         }
 
-        public bool add(FacilitieEntity facilitie)
+        public FacilitieEntity add(FacilitieEntity facilitie)
         {
             if (facilitie == null)
-                return false;
+                return null;
 
             return _facilityRepository.Add(facilitie);
         }
 
-        public bool update(int id, FacilitieEntity facilitie)
+        public FacilitieEntity update(int id,FacilitieEntity facilitie)
         {
-            return _facilityRepository.Update(id, facilitie);
+            return _facilityRepository.Update(id,facilitie);
         }
 
         public bool delete(int id)
         {
 
-            return _facilityRepository.Delete(id);
+          return _facilityRepository.Delete(id);
         }
     }
 }

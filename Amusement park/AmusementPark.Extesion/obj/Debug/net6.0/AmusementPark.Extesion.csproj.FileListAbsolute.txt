@@ -17,3 +17,23 @@ C:\Users\user1\Desktop\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\Am
 C:\Users\user1\Desktop\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\refint\AmusementPark.Extesion.dll
 C:\Users\user1\Desktop\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.pdb
 C:\Users\user1\Desktop\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\ref\AmusementPark.Extesion.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Extesion.deps.json
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Extesion.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Extesion.pdb
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Core.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Data.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Service.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Core.pdb
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Data.pdb
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\bin\Debug\net6.0\AmusementPark.Service.pdb
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.AssemblyInfo.cs
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.sourcelink.json
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\Amusemen.82D5E662.Up2Date
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\refint\AmusementPark.Extesion.dll
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\AmusementPark.Extesion.pdb
+C:\Users\user1\Desktop\Amusement park\Amusement park\AmusementPark.Extesion\obj\Debug\net6.0\ref\AmusementPark.Extesion.dll

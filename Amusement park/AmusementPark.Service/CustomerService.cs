@@ -17,7 +17,7 @@ namespace AmusementPark.Service
         {
             _customerRepository = customerRepository;
         }
-        public List<CustomerEntity> getall()
+        public IEnumerable<CustomerEntity> getall()
         {
             return _customerRepository.GetList();
         }
@@ -28,23 +28,24 @@ namespace AmusementPark.Service
             return _customerRepository.GetById(id);
         }
 
-        public bool add(CustomerEntity customer)
+        public CustomerEntity add(CustomerEntity customer)
         {
             if (customer == null)
-                return false;
+                return null;
 
             return _customerRepository.Add(customer);
         }
 
-        public bool update(int id, CustomerEntity customer)
+        public CustomerEntity update(int id,CustomerEntity customer)
         {
-            return _customerRepository.Update(id, customer);
+            return _customerRepository.Update(id,customer);
         }
 
         public bool delete(int id)
         {
-
             return _customerRepository.Delete(id);
         }
+
+
     }
 }

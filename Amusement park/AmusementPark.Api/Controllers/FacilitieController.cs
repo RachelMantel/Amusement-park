@@ -21,7 +21,7 @@ namespace AmusementPark.Api.Controllers
         [HttpGet]
         public ActionResult<List<FacilitieEntity>> Get()
         {
-            return _facilityService.getall();
+            return _facilityService.getall().ToList();
         }
 
         // GET api/<FacilitieController>/5
@@ -36,7 +36,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPost]
         public ActionResult<bool> Post([FromBody] FacilitieEntity facilitie)
         {
-            if (_facilityService.add(facilitie))
+            if (_facilityService.add(facilitie) != null)
                 return Ok();
             return BadRequest();
         }
@@ -45,7 +45,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] FacilitieEntity facilitie)
         {
-            if (!_facilityService.update(id, facilitie))
+            if (_facilityService.update(id, facilitie)==null)
                 return NotFound();
             return Ok();
         }
@@ -55,8 +55,8 @@ namespace AmusementPark.Api.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            if (!_facilityService.delete(id))
-                return NotFound();
+           if(!_facilityService.delete(id))
+            return NotFound();
             return Ok();
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj": {}
+    "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj": {
+    "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj",
         "projectName": "AmusementPark.Core",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Core\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj": {
+    "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj",
         "projectName": "AmusementPark.Service",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Service\\AmusementPark.Service.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Service\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj"
+              "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\Amusement park\\Amusement park\\AmusementPark.Core\\AmusementPark.Core.csproj"
               }
             }
           }

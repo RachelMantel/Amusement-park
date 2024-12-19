@@ -20,7 +20,8 @@ namespace AmusementPark.Api.Controllers
         [HttpGet]
         public ActionResult<List<CustomerEntity>> Get()
         {
-            return _customerService.getall();
+            return _customerService.getall().ToList();
+ 
         }
 
         // GET api/<CustomerController>/5
@@ -37,7 +38,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPost]
         public ActionResult<bool> Post([FromBody] CustomerEntity customer)
         {
-            if (_customerService.add(customer))
+            if (_customerService.add(customer)!=null)
                 return Ok();
             return BadRequest();
         }
@@ -46,7 +47,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] CustomerEntity customer)
         {
-            if (!_customerService.update(id, customer))
+            if (_customerService.update(id, customer)==null)
                 return NotFound();
             return Ok();
         }

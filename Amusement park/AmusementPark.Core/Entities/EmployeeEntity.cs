@@ -1,7 +1,11 @@
-﻿namespace AmusementPark.Core.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+namespace AmusementPark.Core.Entities
 {
+    [Table("Employees")]
     public class EmployeeEntity
     {
+        [Key]
         public int Id { get; set; }
 
         public string Tz { get; set; }

@@ -8,14 +8,14 @@ namespace AmusementPark.Core.InterfaceRepository
 {
     public interface IRepository<T>
     {
-        public List<T> GetList();
+        IEnumerable<T> GetList();
 
-        public T GetById(int id);
+        T? GetById(int id);
 
-        public bool Add(T val);
+        T Add(T entity);
 
-        public bool Update(int id, T val);
+        T Update(int id,T entity);
 
-        public bool Delete(int id);
+        bool Delete(int id);
     }
 }

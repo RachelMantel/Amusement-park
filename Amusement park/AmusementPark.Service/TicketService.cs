@@ -17,7 +17,7 @@ namespace AmusementPark.Service
         {
             _ticketRepository = ticketRepository;
         }
-        public List<TicketEntity> getall()
+        public IEnumerable<TicketEntity> getall()
         {
             return _ticketRepository.GetList();
         }
@@ -28,23 +28,23 @@ namespace AmusementPark.Service
             return _ticketRepository.GetById(id);
         }
 
-        public bool add(TicketEntity ticket)
+        public TicketEntity add(TicketEntity ticket)
         {
             if (ticket == null)
-                return false;
+                return null;
 
             return _ticketRepository.Add(ticket);
         }
 
-        public bool update(int id, TicketEntity ticket)
+        public TicketEntity update(int id,TicketEntity ticket)
         {
-            return _ticketRepository.Update(id, ticket);
+            return _ticketRepository.Update(id,ticket);
         }
 
         public bool delete(int id)
         {
 
-            return _ticketRepository.Delete(id);
+           return _ticketRepository.Delete(id);
         }
     }
 }

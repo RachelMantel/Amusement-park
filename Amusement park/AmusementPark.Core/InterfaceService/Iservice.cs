@@ -9,14 +9,14 @@ namespace AmusementPark.Core.InterfaceService
 {
     public interface Iservice<T>
     {
-        public List<T> getall();
+        IEnumerable<T> getall();
 
-        public T getById(int id);
+         T? getById(int id);
 
-        public bool add(T item);
+         T add(T item);
 
-        public bool update(int id, T item);
+         T update(int id, T item);
 
-        public bool delete(int id);
+         bool delete(int id);
     }
 }

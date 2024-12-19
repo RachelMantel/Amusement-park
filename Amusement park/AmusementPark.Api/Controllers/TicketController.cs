@@ -21,7 +21,7 @@ namespace AmusementPark.Api.Controllers
         [HttpGet]
         public ActionResult<List<TicketEntity>> Get()
         {
-            return _ticketService.getall();
+            return _ticketService.getall().ToList();
         }
 
         // GET api/<TicketController>/5
@@ -37,7 +37,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPost]
         public ActionResult<bool> Post([FromBody] TicketEntity ticket)
         {
-            if (_ticketService.add(ticket))
+            if (_ticketService.add(ticket) != null)
                 return Ok();
             return BadRequest();
         }
@@ -46,7 +46,7 @@ namespace AmusementPark.Api.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] TicketEntity ticket)
         {
-            if (!_ticketService.update(id, ticket))
+            if (_ticketService.update(id, ticket) == null)
                 return NotFound();
             return Ok();
         }

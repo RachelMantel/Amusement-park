@@ -1,7 +1,12 @@
-﻿namespace AmusementPark.Core.Entities
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace AmusementPark.Core.Entities
 {
+    [Table("Tickets")]
     public class TicketEntity
     {
+        [Key]
         public int Id { get; set; }
         public DateTime DateOfPurchase { get; set; }
 
